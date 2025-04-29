@@ -530,9 +530,9 @@ p {
 }
 .skill-item {
     background-color: #6F757B;
-    color: var(--white-color); /* Valor de respaldo por si la variable no está definida */
+    color: var(--white-color);
     margin: 0.15rem;
-    padding: 0.2rem 0.6rem; /* Añade algo de relleno */
+    padding: 0.2rem 0.6rem; 
     border-radius: 5px;
     font-size: 0.9rem;
     display: inline-block;
