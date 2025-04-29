@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head> 
+<body>
+    <header class="header">
+        <section class="container">
+            <div class="logo">
+                <a href="">Portafolio</a>
+            </div>
+
+            <button class="menu-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24">
+                    <path fill-rule="evenodd" d="M4,5 L20,5 C20.5522847,5 21,5.44771525 21,6 C21,6.55228475 20.5522847,7 20,7 L4,7 C3.44771525,7 3,6.55228475 3,6 C3,5.44771525 3.44771525,5 4,5 Z M4,17 L20,17 C20.5522847,17 21,17.4477153 21,18 C21,18.5522847 20.5522847,19 20,19 L4,19 C3.44771525,19 3,18.5522847 3,18 C3,17.4477153 3.44771525,17 4,17 Z M4,11 L20,11 C20.5522847,11 21,11.4477153 21,12 C21,12.5522847 20.5522847,13 20,13 L4,13 C3.44771525,13 3,12.5522847 3,12 C3,11.4477153 3.44771525,11 4,11 Z"/>
+                </svg>
+        
+                <svg class="none" width="36px" height="36px" viewBox="0 0 256.00 256.00" >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M202.82861,197.17188a3.99991,3.99991,0,1,1-5.65722,5.65624L128,133.65723,58.82861,202.82812a3.99991,3.99991,0,0,1-5.65722-5.65624L122.343,128,53.17139,58.82812a3.99991,3.99991,0,0,1,5.65722-5.65624L128,122.34277l69.17139-69.17089a3.99991,3.99991,0,0,1,5.65722,5.65624L133.657,128Z"></path> </g>
+                </svg>
+           </button>
+
+           <nav class="menu">
+               <a href="#home">Inicio</a>
+               <a href="#conoceme">Conóceme</a>
+               <a href="#proyectos">Proyectos</a>
+               <a href="#habilidades">Habilidades</a>
+               <a href="#contacto">Contacto</a>
+           </nav>
+        </section>
+    </header>
+
+
+    <!---------------------------- HOME ----------------------------->
+    <section id="home" class="home">
+        <div class="home-image" style="--home-image: url(/images/background.jpg)">
+            <aside class="home-image-content">
+                <div class="home-image-title" style="--home-text-color: var(--white-color)">
+                    <h1>Nicolás Admet</h1>
+                    <h2>Desarrollador Web FullStack</h2>
+                </div>
+                <a href="#contacto" class="btn">Contáctame</a>
+            </aside>
+        </div>
+    </section>
+
+
+    <!---------------------------- ABOUT ----------------------------->
+    <section id="conoceme" class="about section container full-lg-screen">
+        <article class="text-center text-lg-right mb-2 mr-2">
+            <h2>Sobre mi</h2>
+            <p>
+                Soy <b>Nicolás Admet</b>, tengo <b>20 años</b> y soy <b>desarrollador fullstack</b>. Estoy buscando mi primer trabajo como <b>trainee</b> para aprender y crecer profesionalmente junto a un equipo.
+                <br><br>
+                Aunque no tengo experiencia laboral formal, he estado trabajando en proyectos personales, los cuales puedes ver en la sección de <b><i>habilidades</i></b>. Mi objetivo es aportar al equipo mientras sigo mejorando como programador.
+                <br><br>
+                Vivo en <b>Rosario, Argentina</b>, y tengo un nivel de <b>inglés intermedio</b>. Fuera del código, disfruto del fútbol y valoro el trabajo en equipo.
+            </p>
+            <a class="btn" href="#" target="_blank" rel="noopener">Descargá mi CV</a>
+        </article>
+
+        <article>
+            <h2  class="text-center text-lg-left mb-2">Educación</h2>
+            <div class="education">
+                <div class="edu-item">
+                    <h3>Tecnicatura Universitaria en Programación</h3>
+                    <h4>Universidad Tecnológica Nacional</h4>
+                    <p class="edu-status">📚 En curso</p>
+                  </div>
+                
+                  <div class="edu-item">
+                    <h3>Desarrollador Web FullStack</h3>
+                    <h4>Academia Numen</h4>
+                    <p class="edu-status">✅ Finalizado</p>
+                    <a href="/images/certificates/Certificado_NicolasAleAdmet.pdf" target="_blank" class="mini-btn">Ver diploma</a>
+                  </div>
+            </div>
+        </article>
+    </section>
+    <hr>
+
+<!---------------------------- PROJECTS ----------------------------->    
+    <section id="proyectos" class="projects section container">
+        <article class="card-project">
+            <img src="/images/projects/freshness.png" alt="proyecto">
+            <h2>Supermercado Online</h2>
+            <p><i>proyecto hecho en grupo en Academia Numen</i></p>
+            <div class="tech-tags">
+                <span class="tag-item html">
+                    <img src="/images/icons/html.png" alt="HTML">
+                    HTML
+                </span>
+                <span class="tag-item css">
+                    <img src="/images/icons/css.png" alt="CSS">
+                    CSS
+                </span>
+                <span class="tag-item react">
+                    <img src="/images/icons/react.png" alt="REACT">
+                    REACT
+                </span>
+            </div>
+            <div class="project-links">
+                <a href="" target="_blank" class="icon-link">
+                    <img src="/images/icons/link.png" alt="Web">
+                </a>
+                <a href="https://github.com/enriquerivadeneirabarrios/React-0223-noche-2" target="_blank" class="icon-link">
+                    <img src="/images/icons/github.png" alt="GitHub" >
+                </a>
+            </div>
+        </article>
+
+        <article class="card-project">
+            <img src="/images/imagen-de-prueba.jpg" alt="proyecto">
+            <h2>Supermercado Online</h2>
+            <p><i>proyecto hecho en grupo en Academia Numen</i></p>
+            <div class="tech-tags">
+                <span class="tag-item html">
+                    <img src="/images/icons/html.png" alt="HTML">
+                    HTML
+                </span>
+                <span class="tag-item css">
+                    <img src="/images/icons/css.png" alt="CSS">
+                    CSS
+                </span>
+                <span class="tag-item react">
+                    <img src="/images/icons/react.png" alt="REACT">
+                    REACT
+                </span>
+            </div>
+            <div class="project-links">
+                <a href="" target="_blank" class="icon-link">
+                    <img src="/images/icons/link.png" alt="GitHub">
+                </a>
+                <a href="" target="_blank" class="icon-link">
+                    <img src="/images/icons/github.png" alt="GitHub" >
+                </a>
+            </div>
+        </article>
+
+        <article class="card-project">
+            <img src="/images/imagen-de-prueba.jpg" alt="proyecto">
+            <h2>Supermercado Online</h2>
+            <p><i>proyecto hecho en grupo en Academia Numen</i></p>
+            <div class="tech-tags">
+                <span class="tag-item html">
+                    <img src="/images/icons/html.png" alt="HTML">
+                    HTML
+                </span>
+                <span class="tag-item css">
+                    <img src="/images/icons/css.png" alt="CSS">
+                    CSS
+                </span>
+                <span class="tag-item react">
+                    <img src="/images/icons/react.png" alt="REACT">
+                    REACT
+                </span>
+            </div>
+            <div class="project-links">
+                <a href="" target="_blank" class="icon-link">
+                    <img src="/images/icons/link.png" alt="GitHub">
+                </a>
+                <a href="" target="_blank" class="icon-link">
+                    <img src="/images/icons/github.png" alt="GitHub">
+                </a>
+            </div>
+        </article>
+
+
+
+        <article class="card-project">
+            <img src="/images/imagen-de-prueba.jpg" alt="proyecto">
+            <h2>Supermercado Online</h2>
+            <p><i>proyecto hecho en grupo en Academia Numen</i></p>
+            <div class="tech-tags">
+                <span class="tag-item html">
+                    <img src="/images/icons/html.png" alt="HTML">
+                    HTML
+                </span>
+                <span class="tag-item css">
+                    <img src="/images/icons/css.png" alt="CSS">
+                    CSS
+                </span>
+                <span class="tag-item react">
+                    <img src="/images/icons/react.png" alt="REACT">
+                    REACT
+                </span>
+            </div>
+            <div class="project-links">
+                <a href="" target="_blank" class="icon-link">
+                    <img src="/images/icons/link.png" alt="GitHub">
+                </a>
+                <a href="" target="_blank" class="icon-link">
+                    <img src="/images/icons/github.png" alt="GitHub" >
+                </a>
+            </div>
+        </article><article class="card-project">
+            <img src="/images/imagen-de-prueba.jpg" alt="proyecto">
+            <h2>Supermercado Online</h2>
+            <p><i>proyecto hecho en grupo en Academia Numen</i></p>
+            <div class="tech-tags">
+                <span class="tag-item html">
+                    <img src="/images/icons/html.png" alt="HTML">
+                    HTML
+                </span>
+                <span class="tag-item css">
+                    <img src="/images/icons/css.png" alt="CSS">
+                    CSS
+                </span>
+                <span class="tag-item react">
+                    <img src="/images/icons/react.png" alt="REACT">
+                    REACT
+                </span>
+            </div>
+            <div class="project-links">
+                <a href="" target="_blank" class="icon-link">
+                    <img src="/images/icons/link.png" alt="GitHub">
+                </a>
+                <a href="" target="_blank" class="icon-link">
+                    <img src="/images/icons/github.png" alt="GitHub" >
+                </a>
+            </div>
+        </article><article class="card-project">
+            <img src="/images/imagen-de-prueba.jpg" alt="proyecto">
+            <h2>Supermercado Online</h2>
+            <p><i>proyecto hecho en grupo en Academia Numen</i></p>
+            <div class="tech-tags">
+                <span class="tag-item html">
+                    <img src="/images/icons/html.png" alt="HTML">
+                    HTML
+                </span>
+                <span class="tag-item css">
+                    <img src="/images/icons/css.png" alt="CSS">
+                    CSS
+                </span>
+                <span class="tag-item react">
+                    <img src="/images/icons/react.png" alt="REACT">
+                    REACT
+                </span>
+            </div>
+            <div class="project-links">
+                <a href="" target="_blank" class="icon-link">
+                    <img src="/images/icons/link.png" alt="GitHub">
+                </a>
+                <a href="" target="_blank" class="icon-link">
+                    <img src="/images/icons/github.png" alt="GitHub" >
+                </a>
+            </div>
+        </article>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+    <hr>
+
+<!---------------------------- SKILLS ----------------------------->  
+
+    <section id="habilidades" class="skills section">
+        <div class="container">
+            <h2 class="section-title">Mis Habilidades</h2>
+            <article class="skill-card">
+                <img src="/images/icons/frontend.png" alt="Frontend">
+                <h3><i>Frontend</i></h3>
+                <span class="skill-item">HTML5</span>
+                <span class="skill-item">CSS3</span>
+                <span class="skill-item">JavaScript</span>
+                <span class="skill-item">React</span>
+                <span class="skill-item">Vite</span>
+                <span class="skill-item">NextJS</span>
+                <span class="skill-item">Boostrap</span>
+            </article>
+
+            <article class="skill-card">
+                <img src="/images/icons/backend.png" alt="Backend">
+                <h3><i>Backend</i></h3>
+                <span class="skill-item">NodeJS</span>
+                <span class="skill-item">Express</span>
+                <span class="skill-item">.NET</span>
+            </article>
+
+            <article class="skill-card">
+                <img src="/images/icons/database.png" alt="Bases de Datos">
+                <h3><i>Bases de Datos</i></h3>
+                <span class="skill-item">MySQL</span>
+                <span class="skill-item">MongoDB</span>
+                <span class="skill-item">MySQL Workbench</span>
+            </article>
+
+            <article class="skill-card">
+                <img src="/images/icons/tools.png" alt="Herramientas">
+                <h3><i>Herramientas</i></h3>
+                <span class="skill-item">Git</span>
+                <span class="skill-item">GitHub</span>
+                <span class="skill-item">Postman</span>
+            </article>
+        </div>
+    </section>
+    <hr>
+
+<!---------------------------- CONTACT ----------------------------->
+    <section id="contacto" class="section">
+        <form action="" class="contact-form" method="post">
+            <input type="text" name="name" placeholder="Ingresa tu nombre" title="Nombre solo acepta letras y espacios en blanco" pattern="^[A-Za-zÁÉÍÓÚáéíóúÑñ\s]+$" required>
+            <input type="email" name="email" placeholder="Ingresa tu email" title="Email incorrecto" pattern="^[a-zA-Z0-9._%+.-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required>
+            <textarea name="comments" cols="50" rows="10" placeholder="Dejame tu comentario..." required></textarea>
+            <span class="loader none"></span>
+            <input type="submit" class="btn" id="btnForm" value="ENVIAR">
+            <article id="enviado" class="modal">
+                <div class="modal-content">
+                    <article class="contact-form-response">
+                        <h3>Enviado correctamente!</h3>
+                        <img src="/images/gifs/check.gif" alt="éxito" class="success-img">
+                    </article>
+                    <article class="contact-form-response">
+                      <img src="/images/gifs/error.gif" alt="error" class="error-img">
+                    </article>
+                </div>
+            </article>
+        </form>
+    </section>
+
+
+<!---------------------------- FOOTER ----------------------------->
+    <footer>
+        <div class="footer container section">
+            <div class="social">
+              <a href="https://github.com/nicoadmet" target="_blank" title="GitHub">
+                <img class="footer-icon" src="/images/icons/github-ft.png" alt="GitHub">
+              </a>
+              <a href="https://www.linkedin.com/in/nicolas-admet-08442a275/" target="_blank" title="LinkedIn">
+                <img class="footer-icon" src="/images/icons/linkedin.png" alt="LinkedIn">
+              </a>
+              <a href="mailto:admetnico@gmail.com" title="Correo">
+                <img class="footer-icon" src="/images/icons/email.png" alt="Email">
+              </a>
+              <!-- <a href="tel:+543416753549" title="Teléfono">
+                <img class="footer-icon" src="/images/icons/phone.png" alt="Teléfono">
+              </a> -->
+            </div>
+            <p class="made-with">Hecho con ❤️ usando HTML, CSS y JavaScript</p>
+            <p>admetnico@gmail.com</p>
+            <p class="copyright">© 2025 Nicolás Admet. Todos los derechos reservados.</p>
+          </div>   
+    <footer>
+
+<!---------------------------- SCRIPTS ----------------------------->   
+    <script src="./js/navbar.js"></script>
+    <script src="/js/contact-form.js"></script>
+</body>
+</html>
+
+
+
+          
