@@ -286,7 +286,7 @@ p {
 }
 .card-project > img {
     width: 100%;
-    height: 50%;
+    min-height: 180px;
     border-radius: .3rem;
     object-fit: cover;
 }
@@ -304,7 +304,7 @@ p {
     display: flex;
     flex-direction: row;
     gap: 1rem;
-    margin-top: 1rem;
+    margin: 1rem 0;
     align-items: center;
 }
 .project-links a {
@@ -477,6 +477,8 @@ p {
     flex-wrap: wrap;
     gap: 0.5rem;
     margin-top: 1rem;
+    align-items: center;
+    justify-content: center;
 }
 .tag-item {
     display: inline-flex;
@@ -493,7 +495,7 @@ p {
 }
 .tag-item:hover {
     transform: scale(1.05); 
-    background-color: var(--first-color);
+    opacity: .75;
 }
 .tag-item img {
     width: 16px;
@@ -507,6 +509,15 @@ p {
 }
 .react{
     background-color: #0C9FCB;
+}
+.nextjs {
+    background-color: #000000;
+}
+.bootstrap {
+    background-color: #6E76E8;
+}
+.vite {
+    background-color: #A649EF;
 }
 
 /*.********** SKILLS ************.*/
