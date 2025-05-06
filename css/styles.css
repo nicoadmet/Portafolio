@@ -519,6 +519,9 @@ p {
 .vite {
     background-color: #A649EF;
 }
+.sqlite {
+    background-color: #005779;
+}
 
 /*.********** SKILLS ************.*/
 .skills > .container > .section-title {
@@ -589,10 +592,15 @@ p {
         justify-content: space-between;
         align-items: center;
         height: 100vh;
+        max-width: 1000px;
     }
     .skills .section-title {
         grid-column: span 2;
         margin-top: 2rem;
+    }
+    .skill-card > img {
+        width: 100px;
+        height: 100px;
     }
 }
 
