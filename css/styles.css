@@ -282,13 +282,30 @@ p {
     box-shadow: 0 4px 20px rgba(0,0,0,0.2);
     transition: transform 0.5s ease, box-shadow 0.5s ease;
 }
+.project-card-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    text-align: center;
+    width: 100%;
+    padding-top: 1rem;
+}
+.project-card-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    text-align: center;
+    width: 100%;
+    
+}
 .card-project:hover {
     transform: translateY(-5px); 
     box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4); 
 }
-.card-project > img {
+.project-img {
     width: 100%;
-    min-height: 180px;
     border-radius: .3rem;
     object-fit: cover;
 }
@@ -314,6 +331,57 @@ p {
 }
 .project-links a {
     width: 2.5rem;
+}
+
+.tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.tag-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.4rem 0.9rem;
+    background-color: var(--second-color);
+    color: var(--white-color);
+    border-radius: 999px;
+    font-size: .85rem;
+    font-weight: bold;
+    user-select: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.tag-item:hover {
+    transform: scale(1.05); 
+    opacity: .75;
+}
+.tag-item img {
+    width: 19px;
+    height: 19px;
+}
+.html {
+    background-color: #FF4B00;
+}
+.css {
+    background-color: #2196F3;
+}
+.react{
+    background-color: #0C9FCB;
+}
+.nextjs {
+    background-color: #000000;
+}
+.bootstrap {
+    background-color: #6E76E8;
+}
+.vite {
+    background-color: #A649EF;
+}
+.sqlite {
+    background-color: #005779;
 }
 
 
@@ -480,56 +548,7 @@ p {
     flex-direction: column;
     align-items: center;
 }
-.tech-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-    margin-top: 1rem;
-    align-items: center;
-    justify-content: center;
-}
-.tag-item {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.3rem;
-    padding: 0.4rem 0.9rem;
-    background-color: var(--second-color);
-    color: var(--white-color);
-    border-radius: 999px;
-    font-size: .85rem;
-    font-weight: bold;
-    user-select: none;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-}
-.tag-item:hover {
-    transform: scale(1.05); 
-    opacity: .75;
-}
-.tag-item img {
-    width: 19px;
-    height: 19px;
-}
-.html {
-    background-color: #FF4B00;
-}
-.css {
-    background-color: #2196F3;
-}
-.react{
-    background-color: #0C9FCB;
-}
-.nextjs {
-    background-color: #000000;
-}
-.bootstrap {
-    background-color: #6E76E8;
-}
-.vite {
-    background-color: #A649EF;
-}
-.sqlite {
-    background-color: #005779;
-}
+
 
 /*.********** SKILLS ************.*/
 .skill-card{
