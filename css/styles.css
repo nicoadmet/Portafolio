@@ -273,7 +273,7 @@ p {
     align-items: center;
     justify-content: space-between;
     text-align: center;
-    height: 600px;
+    height: 550px;
     width: 350px;
     margin-bottom: 1.5rem;
     background-color: var(--grey-dark-color);
@@ -382,6 +382,9 @@ p {
 }
 .sqlite {
     background-color: #005779;
+}
+.selenium {
+    background-color: #000000;
 }
 
 
