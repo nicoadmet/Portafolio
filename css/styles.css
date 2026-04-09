@@ -306,7 +306,7 @@ p {
 }
 .project-img {
     width: 100%;
-    border-radius: .3rem;
+    height: 181px;
     object-fit: cover;
 }
 .card-project h2 {
@@ -376,6 +376,9 @@ p {
 }
 .bootstrap {
     background-color: #6E76E8;
+}
+.tailwind{
+    background-color: #00ffff;
 }
 .vite {
     background-color: #A649EF;
